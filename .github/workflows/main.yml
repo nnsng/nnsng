@@ -31,7 +31,6 @@ jobs:
         with:
           branch: daily-contribution
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          force_with_lease: true
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
