@@ -1,0 +1,43 @@
+name: Daily Contributions
+
+on:
+  schedule:
+    - cron: '0 0 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  make-contribution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Make daily contribution
+        run: |
+          echo "$(date)" >> daily-contribution.txt
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'daily-contribution.txt'
+          message: 'Daily contribution'
+          author_name: ${{ secrets.USER_NAME }}
+          author_email: ${{ secrets.USER_EMAIL }}
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: daily-contribution
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: 'Daily Contribution'
+          commit-message: 'Daily contribution'
+          branch: daily-contribution
+          base: main
+          body: 'This pull request was created automatically by a GitHub Actions workflow to make a daily contribution.'
+          token: ${{ secrets.GITHUB_TOKEN }}
