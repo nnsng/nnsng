@@ -16,7 +16,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin main
+          git pull -f
 
       - name: Make daily contribution
         run: |
