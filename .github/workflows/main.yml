@@ -14,10 +14,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pull latest changes
-        run: |
-          git pull -f
-
       - name: Make daily contribution
         run: |
           echo "$(date)" >> daily-contribution.txt
