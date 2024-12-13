@@ -14,19 +14,23 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure Git User
+        run: |
+          git config --global user.name "${{ secrets.USER_NAME }}"
+          git config --global user.email "${{ secrets.USER_EMAIL }}"
+
       - name: Generate Random Number of Commits
         run: |
           echo "commits=$(( ( RANDOM % 15 ) + 1 ))" >> $GITHUB_ENV
 
       - name: Make Multiple Daily Contributions
         run: |
+          echo "---" >> daily-contribution.txt
           for i in $(seq 1 ${{ env.commits }}); do
             echo "Commit #$i: $(date)" >> daily-contribution.txt
             git add daily-contribution.txt
             git commit -m "Daily contribution #$i"
           done
-          # Add "---" after all commits
-          echo "---" >> daily-contribution.txt
 
       - name: Push changes
         uses: ad-m/github-push-action@master
