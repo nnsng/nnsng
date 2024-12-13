@@ -14,17 +14,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Make daily contribution
+      - name: Generate Random Number of Commits
         run: |
-          echo "$(date)" >> daily-contribution.txt
+          echo "commits=$(( ( RANDOM % 15 ) + 1 ))" >> $GITHUB_ENV
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: 'daily-contribution.txt'
-          message: 'Daily contribution'
-          author_name: ${{ secrets.USER_NAME }}
-          author_email: ${{ secrets.USER_EMAIL }}
+      - name: Make Multiple Daily Contributions
+        run: |
+          for i in $(seq 1 ${{ env.commits }}); do
+            echo "Commit #$i: $(date)" >> daily-contribution.txt
+            git add daily-contribution.txt
+            git commit -m "Daily contribution #$i"
+          done
+          # Add "---" after all commits
+          echo "---" >> daily-contribution.txt
 
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -35,9 +37,9 @@ jobs:
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
         with:
-          title: 'Daily Contribution'
-          commit-message: 'Daily contribution'
+          title: 'Daily Contributions'
+          commit-message: 'Daily contributions batch'
           branch: daily-contribution
           base: main
-          body: 'This pull request was created automatically by a GitHub Actions workflow to make a daily contribution.'
+          body: 'This pull request was created automatically by a GitHub Actions workflow to make multiple daily contributions.'
           token: ${{ secrets.GITHUB_TOKEN }}
