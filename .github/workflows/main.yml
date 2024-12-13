@@ -48,10 +48,3 @@ jobs:
           base: main
           body: 'This pull request was created automatically by a GitHub Actions workflow to make multiple daily contributions.'
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Merge pull request
-        uses: peter-evans/merge-pull-request@v3
-        with:
-          pull-request: "self"
-          merge-method: merge
-          token: ${{ secrets.GITHUB_TOKEN }}
