@@ -11,52 +11,35 @@
 </p>
 
 <div>
-  <h2>🛠️ My Favorite Tools</h2>
+  <h2>💻 Tech Stack</h2>
 
-  <h3>👨‍💻 Programming and Markup Languages</h3>
-
-  <p>
-    <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" style="margin-right: 10px" />
-  </p>
-
-  <h3>🧰 Frameworks and Libraries</h3>
-
-  <p>
-    <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material UI" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=jest" width="48" height="48" alt="Jest" style="margin-right: 10px" />
-  </p>
-
-  <h3>🗄️ Databases and Cloud Hosting</h3>
-
-  <p>
-    <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=notion" width="48" height="48" alt="Notion" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=heroku" width="48" height="48" alt="Heroku" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" style="margin-right: 10px" />
-  </p>
-
-  <h3>💻 Software and Tools</h3>
-
-  <p>
-    <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" style="margin-right: 10px" />
-    <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VSCode" style="margin-right: 10px" />
-  </p>
+  <div align="center">
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />
+  </div>
 </div>
 
 <div>
-  <h2>📊 Stats and Activity</h2>
+  <h2>📊 GitHub Stats and Activity</h2>
 
   <img src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&rank_icon=github&hide_border=true" height="192px" alt="nnsng's Github Stats" />
   <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook,Roff" height="192px" alt="nnsng's Top Languages" />
