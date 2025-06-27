@@ -65,5 +65,11 @@
     <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
   </p>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph/?username=nnsng&theme=tokyo-night&hide_border=true" alt="nnsng's Activity Graph" />
+  <!-- <img src="https://github-readme-activity-graph.vercel.app/graph/?username=nnsng&theme=tokyo-night&hide_border=true" alt="nnsng's Activity Graph" /> -->
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nnsng/nnsng/blob/snake/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nnsng/nnsng/blob/snake/github-snake.svg" />
+    <img src="https://github.com/nnsng/nnsng/blob/snake/github-snake-dark.svg" alt="github-snake" />
+  </picture>
 </div>
