@@ -44,14 +44,14 @@
 
   <div>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&rank_icon=github&hide_border=true" />
-      <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=default&rank_icon=github&hide_border=true" />
-      <img src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&rank_icon=github&hide_border=true" height="192px" alt="nnsng's Github Stats" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=0000&rank_icon=github&hide_border=true" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=default&rank_icon=github&hide_border=true" />
+      <img src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=nnsng&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=0000&rank_icon=github&hide_border=true" height="192px" alt="nnsng's Github Stats" />
     </picture>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook,Roff" />
-      <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=default&hide_border=true&hide=Jupyter%20Notebook,Roff" />
-      <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&hide=Jupyter%20Notebook,Roff" height="192px" alt="nnsng's Top Languages" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=tokyonight&bg_color=0000&hide_border=true&hide=Jupyter%20Notebook,Roff" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=default&hide_border=true&hide=Jupyter%20Notebook,Roff" />
+      <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=nnsng&langs_count=8&layout=compact&theme=tokyonight&bg_color=0000&hide_border=true&hide=Jupyter%20Notebook,Roff" height="192px" alt="nnsng's Top Languages" />
     </picture>
   </div>
 
@@ -63,7 +63,7 @@
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nnsng/nnsng/blob/snake/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nnsng/nnsng/blob/snake/github-snake.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github.com/nnsng/nnsng/blob/snake/github-snake.svg" />
     <img src="https://github.com/nnsng/nnsng/blob/snake/github-snake-dark.svg" alt="github-snake" />
   </picture>
 </div>
